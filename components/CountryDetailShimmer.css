@@ -1,0 +1,87 @@
+/* .country-image {
+  width: 40%;
+  height: 300px;
+}
+
+.detail-heading {
+  width: 250px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.detail-text {
+  width: 250px;
+  height: 18px;
+  margin-bottom: 15px;
+}
+
+.border-countries-shimmer {
+  width: 300px;
+  height: 25px;
+  margin-top: 30px;
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    #f0f0f0 25%,
+    #e0e0e0 50%,
+    #f0f0f0 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+} 
+
+ */
+
+
+
+
+
+.shimmer .flag {
+  width: 40%;
+  height: 240px;
+  /* background-color: var(--element-color); */
+  background-color: var(--shimmer-color);   
+  border-radius: 4px;
+}
+
+.shimmer .title {
+  height: 36px;
+  /* background-color: var(--element-color); */
+  background-color: var(--shimmer-color);  
+  border-radius: 4px;
+}
+
+.country-details.shimmer p {
+  height: 22px;
+  /* background-color: var(--element-color); */
+  background-color: var(--shimmer-color);  
+  border-radius: 2px;
+}
+
+.country-details.shimmer p:last-child {
+  width: 50%;
+}
+
+.details-text-container {
+  flex-grow: 1;
+}
+
+@media (max-width: 940px) {
+  .shimmer .flag, .details-text-container {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+}
